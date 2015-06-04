@@ -1,3 +1,5 @@
+require('./helpers/spec_helper.js');
+
 describe('lib', function() {
   var lib, Library = require('../lib/index');
 
