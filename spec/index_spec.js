@@ -8,7 +8,7 @@ describe('lib', function() {
   });
 
   describe('.self', function() {
-    it('should be iteself', function() {
+    it('should be itself', function() {
       expect(Library.self()).toBe(Library);
     });
 

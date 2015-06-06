@@ -8,14 +8,21 @@ A base configuration and starter project for a simple JavaScript library / Compo
 Setup a new directory and update the origin
 ```javascript
 git clone git@github.com:bnorton/lib.js.git {{name}}.js
-cd {{name}}.js
-git remote set-url origin git@github.com:{{username}}/{{name}}.js.git
 ```
+
+Open this project in a text editor
 
 ####Search the project for things to replace
 1. Rename `{{name}}` to the new library name
 1. Rename `{{username}}` with yours on GitHub and CircleCI respectively
 1. Rename `{{full name}}` with your name and company name (if any)
+
+
+####Set the git remote to be the new remote
+```javascript
+cd {{name}}.js
+git remote set-url origin git@github.com:{{username}}/{{name}}.js.git
+```
 
 ####Add and Install dependencies
 Add any libraries / dependencies that you know of then
